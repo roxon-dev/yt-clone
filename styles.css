@@ -207,17 +207,17 @@ p {
     row-gap: 36px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 480px) {
     .video-grid {
         grid-template-columns: 1fr;
     }
 }
-@media (min-width: 901px) and (max-width: 999px){
+@media (min-width: 481px) and (max-width: 768px){
     .video-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
-@media (min-width: 1000px) {
+@media (min-width: 769px) {
     .video-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
